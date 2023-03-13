@@ -37,8 +37,8 @@ h1 {
     text-align: center;
 }
 
-h5 {
-    color: #777;
+h6 {
+    color: red;
 }
 
 input,
@@ -57,6 +57,12 @@ fieldset {
 
 input[type='submit'] {
     font-size: 1.5em;
+    background-color: cornflowerblue;
+    color: black;
+    border-color: black;
+    
+
+    
 }
 
 input[type='radio'],
@@ -72,4 +78,8 @@ label {
 
 .required-field {
     color: red;
+}
+
+.color{
+    box-sizing: border-box;
 }
